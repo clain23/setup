@@ -11,3 +11,4 @@ brew cask install caffeine
 brew cask install docker
 brew cask install google-chrome
 brew cask install powershell
+brew cask install visual-studio-code
