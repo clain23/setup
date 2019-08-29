@@ -5,6 +5,9 @@
 # Install software
 
 brew update
+
+brew install terminal-notifier
+
 brew cask install 1password
 brew cask install adobe-acrobat-reader
 brew cask install caffeine
