@@ -17,7 +17,11 @@ brew cask install powershell
 #brew cask install telegram #rkn problems
 brew cask install visual-studio-code
 
-# Setup autoupdate
+# Setup Brew autoupdate
 
 brew tap domt4/autoupdate
 brew autoupdate --start --upgrade --cleanup --enable-notification
+
+# VSCode setup
+
+code --install-extension ms-vscode.PowerShell
