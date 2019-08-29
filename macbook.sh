@@ -13,3 +13,8 @@ brew cask install google-chrome
 brew cask install powershell
 brew cask install telegram
 brew cask install visual-studio-code
+
+# Setup autoupdate
+
+brew tap domt4/autoupdate
+brew autoupdate --start --upgrade --cleanup --enable-notification
