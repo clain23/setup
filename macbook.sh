@@ -16,6 +16,7 @@ brew install terminal-notifier
 brew cask install 1password
 brew cask install adobe-acrobat-reader
 brew cask install caffeine
+brew cask install cloudapp
 brew cask install docker
 brew cask install google-chrome
 brew cask install microsoft-office
