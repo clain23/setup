@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Install Homebrew
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -6,6 +8,7 @@
 
 brew update
 
+brew install shellcheck
 brew install terminal-notifier
 
 brew cask install 1password
@@ -24,4 +27,7 @@ brew autoupdate --start --upgrade --cleanup --enable-notification
 
 # VSCode setup
 
+code --install-extension formulahendry.code-runner
 code --install-extension ms-vscode.PowerShell
+code --install-extension shakram02.bash-beautify
+code --install-extension timonwong.shellcheck
