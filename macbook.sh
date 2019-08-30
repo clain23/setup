@@ -8,6 +8,7 @@
 
 brew update
 
+brew install htop
 brew install packer
 brew install shellcheck
 brew install terminal-notifier
