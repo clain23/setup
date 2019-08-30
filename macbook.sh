@@ -22,6 +22,7 @@ brew cask install google-chrome
 brew cask install microsoft-office
 brew cask install powershell
 #brew cask install telegram #rkn problems
+brew cask install terminus
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install visual-studio-code
@@ -35,6 +36,7 @@ brew autoupdate --start --upgrade --cleanup --enable-notification
 
 code --install-extension bbenoist.vagrant
 code --install-extension formulahendry.code-runner
+code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode.PowerShell
 code --install-extension shakram02.bash-beautify
 code --install-extension timonwong.shellcheck
