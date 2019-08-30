@@ -18,6 +18,8 @@ brew cask install docker
 brew cask install google-chrome
 brew cask install powershell
 #brew cask install telegram #rkn problems
+brew cask install vagrant
+brew cask install virtualbox
 brew cask install visual-studio-code
 
 # Setup Brew autoupdate
