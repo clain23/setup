@@ -17,6 +17,7 @@ brew cask install adobe-acrobat-reader
 brew cask install caffeine
 brew cask install docker
 brew cask install google-chrome
+brew cask install microsoft-office
 brew cask install powershell
 #brew cask install telegram #rkn problems
 brew cask install vagrant
