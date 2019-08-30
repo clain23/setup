@@ -29,6 +29,7 @@ brew autoupdate --start --upgrade --cleanup --enable-notification
 
 # VSCode setup
 
+code --install-extension bbenoist.vagrant
 code --install-extension formulahendry.code-runner
 code --install-extension ms-vscode.PowerShell
 code --install-extension shakram02.bash-beautify
