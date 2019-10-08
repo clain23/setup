@@ -10,10 +10,12 @@ brew update
 
 # should rewrite to use https://github.com/Homebrew/homebrew-bundle
 
+brew install bash-completion
 brew install htop
 brew install packer
 brew install shellcheck
 brew install terminal-notifier
+brew install terraform
 
 brew cask install 1password
 brew cask install adobe-acrobat-reader
