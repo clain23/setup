@@ -45,6 +45,7 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode.PowerShell
 code --install-extension shakram02.bash-beautify
 code --install-extension timonwong.shellcheck
+code --install-extension mauve.terraform
 
 # Vagrant setup
 
