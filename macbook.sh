@@ -45,6 +45,9 @@ brew cask install powershell
 brew cask install virtualbox
 brew cask install visual-studio-code
 
+brew tap instrumenta/instrumenta
+brew install kubeval
+
 # Setup Brew autoupdate
 
 brew tap domt4/autoupdate
@@ -64,4 +67,4 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 #todo
-https://gist.github.com/kevin-smets/8568070
+#https://gist.github.com/kevin-smets/8568070
