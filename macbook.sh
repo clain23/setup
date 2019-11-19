@@ -11,6 +11,7 @@ brew update
 # should rewrite to use https://github.com/Homebrew/homebrew-bundle
 
 brew install bash-completion
+brew install ssh-copy-id
 brew install htop
 brew install packer
 brew install shellcheck
@@ -27,8 +28,6 @@ brew cask install google-drive-file-stream
 brew cask install microsoft-office
 brew cask install powershell
 #brew cask install telegram #rkn problems
-brew cask install terminus
-brew cask install vagrant
 brew cask install virtualbox
 brew cask install visual-studio-code
 
@@ -47,6 +46,3 @@ code --install-extension shakram02.bash-beautify
 code --install-extension timonwong.shellcheck
 code --install-extension mauve.terraform
 
-# Vagrant setup
-
-vagrant plugin install vagrant-reload
