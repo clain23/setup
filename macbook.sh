@@ -34,6 +34,7 @@ brew install terraform
 
 brew cask install 1password
 brew cask install adobe-acrobat-reader
+brew cask install aerial # screensaver
 brew cask install caffeine
 brew cask install cloudapp
 brew cask install docker
