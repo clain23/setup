@@ -67,8 +67,14 @@ code --install-extension shakram02.bash-beautify
 code --install-extension timonwong.shellcheck
 code --install-extension mauve.terraform
 
+# zsh setup
+
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+#minikube setup
+
+minikube config set vm-driver hyperkit
 
 #todo
 #https://gist.github.com/kevin-smets/8568070
