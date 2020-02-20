@@ -75,6 +75,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 #minikube setup
 
 minikube config set vm-driver hyperkit
+minikube config set memory 4096
 
 #todo
 #https://gist.github.com/kevin-smets/8568070
