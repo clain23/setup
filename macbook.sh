@@ -25,6 +25,7 @@ brew update
 
 brew install bash-completion
 brew install gcc
+brew install github/gh/gh 
 brew install htop
 brew install packer
 brew install shellcheck
@@ -41,6 +42,7 @@ brew cask install docker
 brew cask install google-chrome
 brew cask install google-drive-file-stream
 brew cask install microsoft-office
+brew cask install multipass
 brew cask install powershell
 #brew cask install telegram #rkn problems
 brew cask install virtualbox
