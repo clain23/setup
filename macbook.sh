@@ -27,6 +27,7 @@ brew install bash-completion
 brew install gcc
 brew install github/gh/gh 
 brew install htop
+brew install minikube
 brew install packer
 brew install shellcheck
 brew install ssh-copy-id
