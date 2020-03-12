@@ -30,7 +30,6 @@ brew install htop
 brew install minikube
 brew install packer
 brew install shellcheck
-brew install slate
 brew install ssh-copy-id
 brew install terminal-notifier
 brew install terraform
@@ -47,6 +46,7 @@ brew cask install microsoft-office
 brew cask install multipass
 brew cask install powershell
 #brew cask install telegram #rkn problems
+brew cask install slate
 brew cask install virtualbox
 brew cask install visual-studio-code
 
