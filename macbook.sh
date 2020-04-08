@@ -44,6 +44,7 @@ brew cask install google-chrome
 brew cask install google-drive-file-stream
 brew cask install microsoft-office
 brew cask install multipass
+brew cask install open-in-code
 brew cask install powershell
 brew cask install punto-switcher
 #brew cask install telegram #rkn problems
