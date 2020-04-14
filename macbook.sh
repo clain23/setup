@@ -42,6 +42,7 @@ brew cask install cloudapp
 brew cask install docker
 brew cask install google-chrome
 brew cask install google-drive-file-stream
+brew cask install lens
 brew cask install microsoft-office
 brew cask install multipass
 brew cask install open-in-code
