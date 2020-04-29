@@ -33,6 +33,7 @@ brew install shellcheck
 brew install ssh-copy-id
 brew install terminal-notifier
 brew install terraform
+brew install wget
 
 brew cask install 1password
 brew cask install adobe-acrobat-reader
