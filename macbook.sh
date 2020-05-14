@@ -23,6 +23,7 @@ brew update
 
 # should rewrite to use https://github.com/Homebrew/homebrew-bundle
 
+brew install azure-cli
 brew install bash-completion
 brew install gcc
 brew install github/gh/gh 
