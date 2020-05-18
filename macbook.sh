@@ -54,6 +54,7 @@ brew cask install punto-switcher
 brew cask install slate
 brew cask install virtualbox
 brew cask install visual-studio-code
+brew cask install wireshark
 
 brew tap instrumenta/instrumenta
 brew install kubeval
