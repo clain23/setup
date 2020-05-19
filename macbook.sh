@@ -93,3 +93,7 @@ minikube config set memory 4096
 
 #todo
 #https://gist.github.com/kevin-smets/8568070
+
+
+# disable mouse acceleration to be more like windows style
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
