@@ -39,6 +39,7 @@ brew install wget
 brew cask install 1password
 brew cask install adobe-acrobat-reader
 brew cask install aerial # screensaver
+brew cask install azure-data-studio
 brew cask install caffeine
 brew cask install cloudapp
 brew cask install docker
