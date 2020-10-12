@@ -26,7 +26,8 @@ brew update
 brew install azure-cli
 brew install bash-completion
 brew install gcc
-brew install github/gh/gh 
+brew install git-open
+brew install github/gh/gh
 brew install htop
 brew install jq
 brew install kustomize
