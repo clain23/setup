@@ -55,6 +55,7 @@ brew cask install open-in-code
 brew cask install powershell
 brew cask install punto-switcher
 #brew cask install telegram #rkn problems
+brew cask install royal-tsx
 brew cask install scroll-reverser
 brew cask install slate
 brew cask install virtualbox
