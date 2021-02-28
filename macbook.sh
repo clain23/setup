@@ -19,55 +19,8 @@ EOD
 
 # Install software
 
-brew update
+brew bundle
 
-# should rewrite to use https://github.com/Homebrew/homebrew-bundle
-
-brew install azure-cli
-brew install bash-completion
-brew install gcc
-brew install git-open
-brew install github/gh/gh
-brew install htop
-brew install jq
-brew install kustomize
-brew install minikube
-brew install packer
-brew install shellcheck
-brew install ssh-copy-id
-brew install terminal-notifier
-brew install terraform
-brew install wget
-
-brew cask install 1password
-brew cask install adobe-acrobat-reader
-brew cask install aerial # screensaver
-brew cask install azure-data-studio
-brew cask install caffeine
-brew cask install cloudapp
-brew cask install docker
-brew cask install google-chrome
-brew cask install google-drive-file-stream
-brew cask install lens
-brew cask install microsoft-office
-brew cask install multipass
-brew cask install open-in-code
-brew cask install powershell
-brew cask install punto-switcher
-#brew cask install telegram #rkn problems
-brew cask install royal-tsx
-brew cask install scroll-reverser
-brew cask install slate
-brew cask install virtualbox
-brew cask install visual-studio-code
-brew cask install wireshark
-
-brew tap instrumenta/instrumenta
-brew install kubeval
-
-# Setup Brew autoupdate
-
-brew tap domt4/autoupdate
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
 
 # VSCode setup
