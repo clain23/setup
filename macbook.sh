@@ -68,7 +68,7 @@ brew install kubeval
 # Setup Brew autoupdate
 
 brew tap domt4/autoupdate
-brew autoupdate --start --upgrade --cleanup --enable-notification
+brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
 
 # VSCode setup
 
