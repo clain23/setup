@@ -34,6 +34,7 @@ code --install-extension timonwong.shellcheck
 code --install-extension mauve.terraform
 code --install-extension oderwat.indent-rainbow
 code --install-extension dmitrydorofeev.empty-indent
+code --install-extension github.copilot
 
 
 # zsh setup
