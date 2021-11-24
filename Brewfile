@@ -67,6 +67,7 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
+cask "zoom"
 mas "Healthier", id: 534953542
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
