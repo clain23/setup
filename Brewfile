@@ -22,8 +22,6 @@ brew "dust"
 brew "dyff"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Banner-like program prints strings as ASCII art
-brew "figlet"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Command-line fuzzy finder written in Go
@@ -52,6 +50,8 @@ brew "kubernetes-cli"
 brew "kubectx"
 # Postgres C API library
 brew "libpq"
+# Rainbows and unicorns in your console!
+brew "lolcat"
 # Mac App Store command-line interface
 brew "mas"
 # Run a Kubernetes cluster locally
