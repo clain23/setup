@@ -10,8 +10,6 @@ tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 brew "awscli"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
-# Apjanke's fork of the classic cowsay project
-brew "cowsay"
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
@@ -24,10 +22,10 @@ brew "dust"
 brew "dyff"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Banner-like program prints strings as ASCII art
+brew "figlet"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
-# Infamous electronic fortune-cookie generator
-brew "fortune"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
