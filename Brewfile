@@ -50,6 +50,8 @@ brew "kubernetes-cli"
 brew "kubectx"
 # Postgres C API library
 brew "libpq"
+# Mac App Store command-line interface
+brew "mas"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Media player based on MPlayer and mplayer2
@@ -155,3 +157,10 @@ cask "windows-app"
 cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Actions", id: 1586435171
+mas "FireStream", id: 1005325119
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
