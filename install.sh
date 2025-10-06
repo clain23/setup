@@ -20,6 +20,12 @@ else
     echo "✅ Homebrew already installed"
 fi
 
+# Check if mas is installed
+if ! command -v mas &> /dev/null; then
+    echo "📱 Installing mas (Mac App Store CLI)..."
+    brew install mas
+fi
+
 # Install packages from Brewfile
 echo "📦 Installing packages from Brewfile..."
 brew bundle --file="$HOME/setup/Brewfile"

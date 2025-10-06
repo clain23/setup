@@ -14,6 +14,12 @@ fi
 REPO_DIR="$HOME/setup"
 cd "$REPO_DIR"
 
+# Check if mas is installed
+if ! command -v mas &> /dev/null; then
+    echo "📱 Installing mas (Mac App Store CLI)..."
+    brew install mas
+fi
+
 echo "🍺 Dumping Brewfile..."
 brew bundle dump --force --describe
 
