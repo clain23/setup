@@ -36,6 +36,9 @@ git commit -m "Auto-update Brewfile - $(date '+%Y-%m-%d %H:%M:%S')"
 echo "🚀 Pushing to repo..."
 if git push; then
     echo "✅ Successfully pushed!"
+
+    # Send macOS notification
+    osascript -e 'display notification "Brewfile has been updated and pushed to repository" with title "Backup Complete" sound name "Glass"'
 else
     echo "⚠️  Failed to push (maybe no internet), will try next time"
     exit 1
