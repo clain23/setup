@@ -54,9 +54,8 @@ echo "🚀 Pushing to repo..."
 if git push; then
     echo "✅ Successfully pushed!"
 
-    # Send macOS notification using AppleScript
-    osascript -e "display dialog \"$NOTIFICATION_MSG\" with title \"✅ Backup Complete\" buttons {\"OK\"} default button 1 giving up after 15" &
-    afplay /System/Library/Sounds/Glass.aiff &
+    # Send macOS notification
+    osascript -e "display notification \"$NOTIFICATION_MSG\" with title \"Backup Complete\""
 else
     echo "⚠️  Failed to push (maybe no internet), will try next time"
     exit 1
