@@ -29,6 +29,21 @@ if git diff --quiet Brewfile; then
     exit 0
 fi
 
+# Capture diff summary for notification
+ADDED=$(git diff Brewfile | grep -E '^\+' | grep -E '(brew|cask|mas) ' | sed 's/^+//' | sed 's/^[[:space:]]*//' | cut -d' ' -f2 | tr -d '"' | head -5)
+REMOVED=$(git diff Brewfile | grep -E '^-' | grep -E '(brew|cask|mas) ' | sed 's/^-//' | sed 's/^[[:space:]]*//' | cut -d' ' -f2 | tr -d '"' | head -5)
+ADDED_COUNT=$(echo "$ADDED" | grep -v '^$' | wc -l | xargs)
+REMOVED_COUNT=$(echo "$REMOVED" | grep -v '^$' | wc -l | xargs)
+
+# Build notification message
+NOTIFICATION_MSG="Brewfile updated!"
+if [ "$ADDED_COUNT" -gt 0 ]; then
+    NOTIFICATION_MSG="$NOTIFICATION_MSG\n\n➕ Added ($ADDED_COUNT):\n$(echo "$ADDED" | sed 's/^/  • /')"
+fi
+if [ "$REMOVED_COUNT" -gt 0 ]; then
+    NOTIFICATION_MSG="$NOTIFICATION_MSG\n\n➖ Removed ($REMOVED_COUNT):\n$(echo "$REMOVED" | sed 's/^/  • /')"
+fi
+
 echo "📝 Committing changes..."
 git add Brewfile
 git commit -m "Auto-update Brewfile - $(date '+%Y-%m-%d %H:%M:%S')"
@@ -40,9 +55,9 @@ if git push; then
     # Send macOS notification (stays visible for 10 seconds)
     if command -v terminal-notifier &> /dev/null; then
         terminal-notifier -title "Backup Complete" \
-                         -message "Brewfile has been updated and pushed to repository" \
+                         -message "$NOTIFICATION_MSG" \
                          -sound Glass \
-                         -timeout 10
+                         -timeout 15
     else
         osascript -e 'display notification "Brewfile has been updated and pushed to repository" with title "Backup Complete" sound name "Glass"'
     fi
