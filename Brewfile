@@ -10,6 +10,8 @@ tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 brew "awscli"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
+# Apjanke's fork of the classic cowsay project
+brew "cowsay"
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
