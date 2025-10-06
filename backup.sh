@@ -30,18 +30,20 @@ if git diff --quiet Brewfile; then
 fi
 
 # Capture diff summary for notification
-ADDED=$(git diff Brewfile | grep -E '^\+' | grep -E '(brew|cask|mas) ' | sed 's/^+//' | sed 's/^[[:space:]]*//' | cut -d' ' -f2 | tr -d '"' | head -5)
-REMOVED=$(git diff Brewfile | grep -E '^-' | grep -E '(brew|cask|mas) ' | sed 's/^-//' | sed 's/^[[:space:]]*//' | cut -d' ' -f2 | tr -d '"' | head -5)
+ADDED=$(git diff Brewfile | grep -E '^\+' | grep -E '(brew|cask|mas) ' | sed 's/^+//' | sed 's/^[[:space:]]*//' | cut -d' ' -f2 | tr -d '"' | head -3)
+REMOVED=$(git diff Brewfile | grep -E '^-' | grep -E '(brew|cask|mas) ' | sed 's/^-//' | sed 's/^[[:space:]]*//' | cut -d' ' -f2 | tr -d '"' | head -3)
 ADDED_COUNT=$(echo "$ADDED" | grep -v '^$' | wc -l | xargs)
 REMOVED_COUNT=$(echo "$REMOVED" | grep -v '^$' | wc -l | xargs)
 
-# Build notification message
-NOTIFICATION_MSG="Brewfile updated!"
+# Build notification message (inline format)
+NOTIFICATION_MSG="Brewfile updated and pushed!"
 if [ "$ADDED_COUNT" -gt 0 ]; then
-    NOTIFICATION_MSG="$NOTIFICATION_MSG\n\n➕ Added ($ADDED_COUNT):\n$(echo "$ADDED" | sed 's/^/  • /')"
+    ADDED_LIST=$(echo "$ADDED" | tr '\n' ', ' | sed 's/, $//')
+    NOTIFICATION_MSG="$NOTIFICATION_MSG | ➕ Added: $ADDED_LIST"
 fi
 if [ "$REMOVED_COUNT" -gt 0 ]; then
-    NOTIFICATION_MSG="$NOTIFICATION_MSG\n\n➖ Removed ($REMOVED_COUNT):\n$(echo "$REMOVED" | sed 's/^/  • /')"
+    REMOVED_LIST=$(echo "$REMOVED" | tr '\n' ', ' | sed 's/, $//')
+    NOTIFICATION_MSG="$NOTIFICATION_MSG | ➖ Removed: $REMOVED_LIST"
 fi
 
 echo "📝 Committing changes..."
