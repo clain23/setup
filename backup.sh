@@ -39,11 +39,11 @@ REMOVED_COUNT=$(echo "$REMOVED" | grep -v '^$' | wc -l | xargs)
 NOTIFICATION_MSG="Brewfile updated and pushed!"
 if [ "$ADDED_COUNT" -gt 0 ]; then
     ADDED_LIST=$(echo "$ADDED" | tr '\n' ', ' | sed 's/, $//')
-    NOTIFICATION_MSG="$NOTIFICATION_MSG | ➕ Added: $ADDED_LIST"
+    NOTIFICATION_MSG="$NOTIFICATION_MSG | Added: $ADDED_LIST"
 fi
 if [ "$REMOVED_COUNT" -gt 0 ]; then
     REMOVED_LIST=$(echo "$REMOVED" | tr '\n' ', ' | sed 's/, $//')
-    NOTIFICATION_MSG="$NOTIFICATION_MSG | ➖ Removed: $REMOVED_LIST"
+    NOTIFICATION_MSG="$NOTIFICATION_MSG | Removed: $REMOVED_LIST"
 fi
 
 echo "📝 Committing changes..."
