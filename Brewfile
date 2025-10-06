@@ -60,6 +60,8 @@ brew "mpv"
 brew "mtr"
 # Text-based UI library
 brew "ncurses"
+# Fast, highly customisable system info script
+brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -72,8 +74,6 @@ brew "procs"
 brew "redis"
 # Modern Day Portscanner
 brew "rustscan"
-# Prints a steam locomotive if you type sl instead of ls
-brew "sl"
 # Non-interactive SSH password auth
 brew "sshpass"
 # User interface to the TELNET protocol
