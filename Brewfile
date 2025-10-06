@@ -50,8 +50,6 @@ brew "kubernetes-cli"
 brew "kubectx"
 # Postgres C API library
 brew "libpq"
-# Rainbows and unicorns in your console!
-brew "lolcat"
 # Mac App Store command-line interface
 brew "mas"
 # Run a Kubernetes cluster locally
@@ -74,6 +72,8 @@ brew "procs"
 brew "redis"
 # Modern Day Portscanner
 brew "rustscan"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
 # Non-interactive SSH password auth
 brew "sshpass"
 # User interface to the TELNET protocol
