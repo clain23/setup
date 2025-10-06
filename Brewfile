@@ -60,8 +60,6 @@ brew "mpv"
 brew "mtr"
 # Text-based UI library
 brew "ncurses"
-# Fast, highly customisable system info script
-brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -78,8 +76,6 @@ brew "rustscan"
 brew "sshpass"
 # User interface to the TELNET protocol
 brew "telnet"
-# Send macOS User Notifications from the command-line
-brew "terminal-notifier"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Internet file retriever
