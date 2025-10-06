@@ -4,6 +4,13 @@
 
 set -e
 
+# Setup brew PATH for launchd
+if [ -f "/opt/homebrew/bin/brew" ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+elif [ -f "/usr/local/bin/brew" ]; then
+    eval "$(/usr/local/bin/brew shellenv)"
+fi
+
 REPO_DIR="$HOME/setup"
 cd "$REPO_DIR"
 
