@@ -37,8 +37,15 @@ echo "🚀 Pushing to repo..."
 if git push; then
     echo "✅ Successfully pushed!"
 
-    # Send macOS notification
-    osascript -e 'display notification "Brewfile has been updated and pushed to repository" with title "Backup Complete" sound name "Glass"'
+    # Send macOS notification (stays visible for 10 seconds)
+    if command -v terminal-notifier &> /dev/null; then
+        terminal-notifier -title "Backup Complete" \
+                         -message "Brewfile has been updated and pushed to repository" \
+                         -sound Glass \
+                         -timeout 10
+    else
+        osascript -e 'display notification "Brewfile has been updated and pushed to repository" with title "Backup Complete" sound name "Glass"'
+    fi
 else
     echo "⚠️  Failed to push (maybe no internet), will try next time"
     exit 1
