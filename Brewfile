@@ -129,6 +129,8 @@ cask "notion-calendar"
 cask "openmtp"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Security checklist app
+cask "pareto-security"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Collection of apps available by subscription
