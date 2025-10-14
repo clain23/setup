@@ -37,7 +37,7 @@ brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
 # Deploy Kubernetes Helm Charts
-brew "helmfile"
+brew "helmfile", link: false
 # Fast and multi-purpose HTTP toolkit
 brew "httpx"
 # Official CLI for the IPinfo IP Address API
@@ -52,6 +52,8 @@ brew "kubectx"
 brew "libpq"
 # Mac App Store command-line interface
 brew "mas"
+# CLI for interacting with Grafana Mimir
+brew "mimirtool"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Media player based on MPlayer and mplayer2
@@ -82,6 +84,8 @@ brew "terraform"
 brew "wget"
 # Fast CSV toolkit written in Rust
 brew "xsv"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
 # Flux MCP Server
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 # Flux CLI
