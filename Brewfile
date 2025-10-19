@@ -48,6 +48,8 @@ brew "k9s"
 brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Template-free customization of Kubernetes YAML manifests
+brew "kustomize"
 # Postgres C API library
 brew "libpq"
 # Mac App Store command-line interface
@@ -70,6 +72,8 @@ brew "node"
 brew "pinentry-mac"
 # Modern replacement for ps written in Rust
 brew "procs"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Modern Day Portscanner
