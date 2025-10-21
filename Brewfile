@@ -164,7 +164,7 @@ cask "wifi-explorer"
 # Connect to Windows
 cask "windows-app"
 # Multiplayer code editor
-cask "zed"
+cask "zed@preview"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Actions", id: 1586435171
