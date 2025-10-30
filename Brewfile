@@ -58,6 +58,8 @@ brew "mas"
 brew "mimirtool"
 # Run a Kubernetes cluster locally
 brew "minikube"
+# Matroska media files manipulation tools
+brew "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # 'traceroute' and 'ping' in a single tool
