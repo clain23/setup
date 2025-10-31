@@ -68,7 +68,7 @@ brew "mtr"
 brew "ncurses"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
