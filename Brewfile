@@ -10,6 +10,8 @@ tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 brew "awscli"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
+# Create and run Linux containers using lightweight virtual machines
+brew "container"
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
@@ -44,6 +46,8 @@ brew "httpx"
 brew "ipinfo-cli"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
+# Run local Kubernetes cluster in Docker
+brew "kind"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
@@ -176,3 +180,4 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+go "sigs.k8s.io/cloud-provider-kind"
