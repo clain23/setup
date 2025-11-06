@@ -90,6 +90,8 @@ brew "sshpass"
 brew "telnet"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Internet file retriever
 brew "wget"
 # Fast CSV toolkit written in Rust
