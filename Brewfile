@@ -6,6 +6,8 @@ tap "kdash-rs/kdash"
 tap "netbirdio/tap"
 tap "robusta-dev/krr"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # OpenAI's coding agent that runs in your terminal
