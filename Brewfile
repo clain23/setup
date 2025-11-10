@@ -18,6 +18,8 @@ brew "container"
 brew "csview"
 # Command-line DNS Client for Humans
 brew "doggo"
+# .NET Core
+brew "dotnet@8"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
 # More intuitive version of du in rust
@@ -40,8 +42,8 @@ brew "go"
 brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
-# Deploy Kubernetes Helm Charts
-brew "helmfile"
+# Kubernetes package manager
+brew "helm"
 # Fast and multi-purpose HTTP toolkit
 brew "httpx"
 # Official CLI for the IPinfo IP Address API
@@ -122,6 +124,8 @@ cask "chatgpt"
 cask "claude-code"
 # Create and run Linux containers using lightweight virtual machines
 cask "container"
+# Developer platform
+cask "dotnet-sdk"
 cask "font-hack-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
@@ -151,6 +155,8 @@ cask "orbstack"
 cask "pareto-security"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
+# Manage Samsung internal and portable SSDs, memory cards, and USB flash drives
+cask "samsung-magician"
 # Collection of apps available by subscription
 cask "setapp"
 # Team communication and collaboration software
