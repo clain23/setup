@@ -114,6 +114,8 @@ brew "robusta-dev/krr/krr"
 brew "shodan-public/shodan/nrich"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Kubernetes desktop client
+cask "aptakube"
 # Utility improving 3rd party mouse performance and functionalities
 cask "bettermouse"
 # Control USB Cameras from an app
