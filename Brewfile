@@ -145,6 +145,8 @@ cask "keka"
 cask "lens"
 # Extensible two-pane file manager
 cask "marta"
+# Netbird UI Client
+cask "netbird-ui"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Calendar for professionals and teams
