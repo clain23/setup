@@ -36,6 +36,8 @@ brew "fzf"
 brew "gh"
 # Audit git repos for secrets
 brew "gitleaks"
+# Open-source GitLab command-line tool
+brew "glab"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Ping, but with a graph
@@ -43,7 +45,7 @@ brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
 # Kubernetes package manager
-brew "helm"
+brew "helm@3"
 # Fast and multi-purpose HTTP toolkit
 brew "httpx"
 # Official CLI for the IPinfo IP Address API
@@ -143,6 +145,8 @@ cask "jellyfin"
 cask "keka"
 # Kubernetes IDE
 cask "lens"
+# Support for Logitech G gear
+cask "logitech-g-hub"
 # Extensible two-pane file manager
 cask "marta"
 # Netbird UI Client
