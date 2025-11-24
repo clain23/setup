@@ -45,7 +45,7 @@ brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
 # Kubernetes package manager
-brew "helm@3"
+brew "helm@3", link: true
 # Fast and multi-purpose HTTP toolkit
 brew "httpx"
 # Official CLI for the IPinfo IP Address API
