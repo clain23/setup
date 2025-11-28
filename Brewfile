@@ -6,6 +6,7 @@ tap "kdash-rs/kdash"
 tap "netbirdio/tap"
 tap "robusta-dev/krr"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
+tap "vectordotdev/brew"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Official Amazon AWS command-line interface
@@ -114,6 +115,8 @@ brew "hashicorp/tap/vault"
 brew "robusta-dev/krr/krr"
 # IPs Analyze Tool
 brew "shodan-public/shodan/nrich"
+# A High-Performance Log, Metrics, and Events Router
+brew "vectordotdev/brew/vector"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Kubernetes desktop client
