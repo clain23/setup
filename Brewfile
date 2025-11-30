@@ -45,6 +45,8 @@ brew "go"
 brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
+# Language server for Helm
+brew "helm-ls"
 # Kubernetes package manager
 brew "helm@3", link: true
 # Fast and multi-purpose HTTP toolkit
@@ -87,10 +89,14 @@ brew "pinentry-mac"
 brew "procs"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Rsync for cloud storage
+brew "rclone"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Modern Day Portscanner
 brew "rustscan"
+# Compressed read-only file system for Linux
+brew "squashfs"
 # Non-interactive SSH password auth
 brew "sshpass"
 # User interface to the TELNET protocol
@@ -103,6 +109,8 @@ brew "uv"
 brew "wget"
 # Fast CSV toolkit written in Rust
 brew "xsv"
+# Language Server for Yaml Files
+brew "yaml-language-server"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
 # Flux MCP Server
@@ -131,6 +139,8 @@ cask "chatgpt"
 cask "claude-code"
 # Create and run Linux containers using lightweight virtual machines
 cask "container"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Developer platform
 cask "dotnet-sdk"
 cask "font-hack-nerd-font"
