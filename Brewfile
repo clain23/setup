@@ -14,7 +14,7 @@ brew "awscli"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
-brew "container"
+brew "container", link: false
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
@@ -63,6 +63,8 @@ brew "kubernetes-cli"
 brew "kubectx"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
+# Kubernetes Native Policy Management
+brew "kyverno"
 # Postgres C API library
 brew "libpq"
 # Mac App Store command-line interface
@@ -103,6 +105,8 @@ brew "sshpass"
 brew "telnet"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Distributed SQL query engine for big data
+brew "trino"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Internet file retriever
