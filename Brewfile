@@ -158,8 +158,6 @@ cask "handbrake-app"
 cask "imazing"
 # Media system
 cask "jellyfin"
-# Keyboard customiser
-cask "karabiner-elements"
 # File archiver
 cask "keka"
 # Kubernetes IDE
