@@ -101,6 +101,8 @@ brew "rustscan"
 brew "squashfs"
 # Non-interactive SSH password auth
 brew "sshpass"
+# Modern SSH server for teams managing distributed infrastructure
+brew "teleport"
 # User interface to the TELNET protocol
 brew "telnet"
 # Tool to build, change, and version infrastructure
