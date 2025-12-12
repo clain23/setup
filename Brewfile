@@ -188,8 +188,6 @@ cask "samsung-magician"
 cask "setapp"
 # Team communication and collaboration software
 cask "slack"
-# Sound and audio controller
-cask "soundsource"
 # System monitor for the menu bar
 cask "stats"
 # Interior design application
