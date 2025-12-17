@@ -14,7 +14,7 @@ brew "awscli"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
-brew "container", link: false
+brew "container"
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
