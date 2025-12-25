@@ -1,6 +1,7 @@
 tap "controlplaneio-fluxcd/tap"
 tap "domt4/autoupdate"
 tap "fluxcd/tap"
+tap "gimlet-io/capacitor"
 tap "hashicorp/tap"
 tap "kdash-rs/kdash"
 tap "netbirdio/tap"
@@ -123,6 +124,8 @@ brew "yq"
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 # Flux CLI
 brew "fluxcd/tap/flux"
+# Kubernetes GUI for GitOps with Flux and Helm
+brew "gimlet-io/capacitor/capacitor"
 # Vault
 brew "hashicorp/tap/vault"
 # Kubernetes Resource Recommender by Robusta
