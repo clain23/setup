@@ -124,8 +124,6 @@ brew "yq"
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 # Flux CLI
 brew "fluxcd/tap/flux"
-# Kubernetes GUI for GitOps with Flux and Helm
-brew "gimlet-io/capacitor/capacitor"
 # Vault
 brew "hashicorp/tap/vault"
 # Kubernetes Resource Recommender by Robusta
