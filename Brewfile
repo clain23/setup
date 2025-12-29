@@ -7,6 +7,7 @@ tap "kdash-rs/kdash"
 tap "netbirdio/tap"
 tap "robusta-dev/krr"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
+tap "sinelaw/fresh"
 tap "vectordotdev/brew"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
@@ -32,6 +33,8 @@ brew "dyff"
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Text editor for your terminal: easy, powerful and fast
+brew "fresh-editor"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
