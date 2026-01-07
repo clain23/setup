@@ -89,6 +89,8 @@ brew "ncurses"
 brew "nmap"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Drop-in replacement for Terraform. Infrastructure as Code Tool
+brew "opentofu"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Modern replacement for ps written in Rust
@@ -137,6 +139,8 @@ brew "shodan-public/shodan/nrich"
 brew "vectordotdev/brew/vector"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Application uninstaller
+cask "appcleaner"
 # Kubernetes desktop client
 cask "aptakube"
 # Utility improving 3rd party mouse performance and functionalities
