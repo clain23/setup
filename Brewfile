@@ -143,6 +143,8 @@ cask "1password"
 cask "appcleaner"
 # Kubernetes desktop client
 cask "aptakube"
+# Display management tool
+cask "betterdisplay"
 # Utility improving 3rd party mouse performance and functionalities
 cask "bettermouse"
 # Control USB Cameras from an app
