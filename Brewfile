@@ -29,7 +29,7 @@ brew "duf"
 brew "dust"
 # Diff tool for YAML files, and sometimes JSON
 brew "dyff"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
