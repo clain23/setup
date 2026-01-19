@@ -179,7 +179,7 @@ cask "logitech-g-hub"
 # Extensible two-pane file manager
 cask "marta"
 # Netbird UI Client
-cask "netbird-ui"
+cask "netbirdio/tap/netbird-ui"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Calendar for professionals and teams
