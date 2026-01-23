@@ -16,7 +16,7 @@ brew "awscli"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
-brew "container"
+brew "container", link: false
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
@@ -202,6 +202,8 @@ cask "stats"
 cask "sweet-home3d"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Developer-friendly browser for cloud infrastructure
+cask "teleport-connect"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
 # Open-source code editor
