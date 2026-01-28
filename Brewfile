@@ -115,6 +115,8 @@ brew "telnet"
 brew "terraform"
 # Distributed SQL query engine for big data
 brew "trino"
+# Vulnerability scanner for container images, file systems, and Git repos
+brew "trivy"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Internet file retriever
