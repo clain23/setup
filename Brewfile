@@ -157,8 +157,12 @@ cask "claude-code"
 cask "container"
 # Write, edit, and chat about your code with AI
 cask "cursor"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Developer platform
 cask "dotnet-sdk"
+# Status monitoring
+cask "eul"
 cask "font-hack-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
