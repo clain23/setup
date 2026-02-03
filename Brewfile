@@ -127,6 +127,8 @@ brew "xsv"
 brew "yaml-language-server"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
+# Flux Operator CLI
+brew "controlplaneio-fluxcd/tap/flux-operator"
 # Flux MCP Server
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 # Flux CLI
