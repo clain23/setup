@@ -182,8 +182,12 @@ cask "keka"
 cask "lens"
 # Support for Logitech G gear
 cask "logitech-g-hub"
+# Clipboard manager
+cask "maccy"
 # Extensible two-pane file manager
 cask "marta"
+# Shows the next meeting in the menu bar
+cask "meetingbar"
 # Netbird UI Client
 cask "netbirdio/tap/netbird-ui"
 # App to write, plan, collaborate, and get organised
@@ -200,8 +204,6 @@ cask "pareto-security"
 cask "qbittorrent"
 # Manage Samsung internal and portable SSDs, memory cards, and USB flash drives
 cask "samsung-magician"
-# Collection of apps available by subscription
-cask "setapp"
 # Team communication and collaboration software
 cask "slack"
 # System monitor for the menu bar
