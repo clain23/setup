@@ -168,8 +168,6 @@ cask "eul"
 cask "font-hack-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Web browser
-cask "google-chrome"
 # Open-source video transcoder
 cask "handbrake-app"
 # iPhone management application
