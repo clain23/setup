@@ -153,6 +153,8 @@ cask "bettermouse"
 cask "cameracontroller"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Create and run Linux containers using lightweight virtual machines
