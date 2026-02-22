@@ -194,6 +194,8 @@ cask "netbirdio/tap/netbird-ui"
 cask "notion"
 # Calendar for professionals and teams
 cask "notion-calendar"
+# Document editor
+cask "onlyoffice"
 # Android file transfer
 cask "openmtp"
 # Replacement for Docker Desktop
@@ -234,6 +236,7 @@ mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
+mas "Numbers", id: 361304891
 mas "Pages", id: 409201541
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/gopls"
