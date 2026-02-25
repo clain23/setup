@@ -1,3 +1,4 @@
+tap "coder/coder"
 tap "controlplaneio-fluxcd/tap"
 tap "domt4/autoupdate"
 tap "fluxcd/tap"
@@ -127,6 +128,8 @@ brew "xsv"
 brew "yaml-language-server"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
+# Provisions remote development environments via Terraform
+brew "coder/coder/coder"
 # Flux Operator CLI
 brew "controlplaneio-fluxcd/tap/flux-operator"
 # Flux MCP Server
@@ -235,9 +238,8 @@ mas "FireStream", id: 1005325119
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
 mas "Numbers", id: 361304891
-mas "Pages", id: 409201541
+mas "Pages", id: 361309726
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
