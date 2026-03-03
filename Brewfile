@@ -183,16 +183,12 @@ cask "jellyfin"
 cask "keka"
 # Kubernetes IDE
 cask "lens"
-# Support for Logitech G gear
-cask "logitech-g-hub"
 # Clipboard manager
 cask "maccy"
 # Extensible two-pane file manager
 cask "marta"
 # Shows the next meeting in the menu bar
 cask "meetingbar"
-# Netbird UI Client
-cask "netbirdio/tap/netbird-ui"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Calendar for professionals and teams
@@ -243,3 +239,4 @@ mas "Pages", id: 361309726
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
+uv "flux-local"
