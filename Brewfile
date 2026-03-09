@@ -50,6 +50,8 @@ brew "go"
 brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
+# Convert HCL2 to JSON
+brew "hcl2json"
 # Language server for Helm
 brew "helm-ls"
 # Kubernetes package manager
