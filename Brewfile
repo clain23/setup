@@ -106,6 +106,8 @@ brew "rclone"
 brew "redis"
 # Modern Day Portscanner
 brew "rustscan"
+# Editor of encrypted files
+brew "sops"
 # Compressed read-only file system for Linux
 brew "squashfs"
 # Non-interactive SSH password auth
