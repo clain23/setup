@@ -225,6 +225,8 @@ cask "teleport-connect"
 cask "tunnelblick"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Scan, monitor, and troubleshoot wireless networks
