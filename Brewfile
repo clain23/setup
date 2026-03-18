@@ -7,6 +7,7 @@ tap "hashicorp/tap"
 tap "kdash-rs/kdash"
 tap "netbirdio/tap"
 tap "robusta-dev/krr"
+tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
 tap "vectordotdev/brew"
@@ -14,6 +15,8 @@ tap "vectordotdev/brew"
 brew "ansible"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Yet another cross-platform graphical process/system monitor
+brew "bottom"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
@@ -120,6 +123,8 @@ brew "teleport"
 brew "telnet"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Program that allows you to count code, quickly
+brew "tokei"
 # Distributed SQL query engine for big data
 brew "trino"
 # Vulnerability scanner for container images, file systems, and Git repos
@@ -146,6 +151,8 @@ brew "fluxcd/tap/flux"
 brew "hashicorp/tap/vault"
 # Kubernetes Resource Recommender by Robusta
 brew "robusta-dev/krr/krr"
+# Permanent memory for AI agents — MCP server with hybrid search
+brew "rtk-ai/tap/icm"
 # IPs Analyze Tool
 brew "shodan-public/shodan/nrich"
 # A High-Performance Log, Metrics, and Events Router
@@ -234,7 +241,7 @@ cask "wifi-explorer"
 # Connect to Windows
 cask "windows-app"
 # Multiplayer code editor
-cask "zed@preview"
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Actions", id: 1586435171
