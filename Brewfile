@@ -95,6 +95,8 @@ brew "ncurses"
 brew "nmap"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Package manager for Microsoft development platform including .NET
+brew "nuget"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
 # Pinentry for GPG on Mac
