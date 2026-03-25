@@ -67,10 +67,10 @@ brew "ipinfo-cli"
 brew "k9s"
 # Run local Kubernetes cluster in Docker
 brew "kind"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
 # Kubernetes Native Policy Management
