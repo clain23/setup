@@ -244,6 +244,13 @@ cask "windows-app"
 cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Actions", id: 1586435171
+mas "FireStream", id: 1005325119
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
