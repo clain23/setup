@@ -121,8 +121,6 @@ brew "sshpass"
 brew "teleport"
 # User interface to the TELNET protocol
 brew "telnet"
-# Tool to build, change, and version infrastructure
-brew "terraform"
 # Program that allows you to count code, quickly
 brew "tokei"
 # Distributed SQL query engine for big data
@@ -147,6 +145,8 @@ brew "controlplaneio-fluxcd/tap/flux-operator"
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 # Flux CLI
 brew "fluxcd/tap/flux"
+# Terraform
+brew "hashicorp/tap/terraform"
 # Vault
 brew "hashicorp/tap/vault"
 # Kubernetes Resource Recommender by Robusta
