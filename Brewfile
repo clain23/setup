@@ -21,6 +21,8 @@ brew "bottom"
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
 brew "container", link: false
+# Tool for interacting with remote images and registries
+brew "crane"
 # High performance csv viewer for cli
 brew "csview"
 # Command-line DNS Client for Humans
