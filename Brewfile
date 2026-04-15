@@ -111,6 +111,8 @@ brew "python@3.12"
 brew "rclone"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# CLI proxy to minimize LLM token consumption
+brew "rtk"
 # Modern Day Portscanner
 brew "rustscan"
 # Editor of encrypted files
@@ -204,6 +206,8 @@ cask "maccy"
 cask "marta"
 # Shows the next meeting in the menu bar
 cask "meetingbar"
+# Native app email client for Gmail
+cask "mimestream"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Calendar for professionals and teams
