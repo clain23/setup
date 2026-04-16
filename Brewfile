@@ -175,8 +175,6 @@ cask "cameracontroller"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Terminal-based AI coding assistant
-cask "claude-code"
 # Create and run Linux containers using lightweight virtual machines
 cask "container"
 # Write, edit, and chat about your code with AI
@@ -258,6 +256,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 go "sigs.k8s.io/cloud-provider-kind"
+go "golang.org/x/tools/cmd/goimports"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 uv "flux-local"
