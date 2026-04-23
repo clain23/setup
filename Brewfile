@@ -45,6 +45,8 @@ brew "fresh-editor"
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
 # Audit git repos for secrets
 brew "gitleaks"
 # Open-source GitLab command-line tool
