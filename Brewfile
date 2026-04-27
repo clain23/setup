@@ -101,6 +101,8 @@ brew "nmap"
 brew "node"
 # Package manager for Microsoft development platform including .NET
 brew "nuget"
+# Development kit for the Java programming language
+brew "openjdk@17"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
 # Pinentry for GPG on Mac
