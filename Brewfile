@@ -95,6 +95,8 @@ brew "mpv"
 brew "mtr"
 # Text-based UI library
 brew "ncurses"
+# NCurses Disk Usage
+brew "ncdu"
 # Port scanning utility for large networks
 brew "nmap"
 # Open-source, cross-platform JavaScript runtime environment
