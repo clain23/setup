@@ -123,6 +123,8 @@ brew "rtk"
 brew "rustscan"
 # Editor of encrypted files
 brew "sops"
+# Microsoft SQL Server command-line interface
+brew "sqlcmd"
 # Compressed read-only file system for Linux
 brew "squashfs"
 # Non-interactive SSH password auth
