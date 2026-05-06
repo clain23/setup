@@ -266,6 +266,7 @@ mas "Pages", id: 361309726
 vscode "github.copilot-chat"
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/cmd/goimports"
+go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 uv "flux-local"
