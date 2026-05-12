@@ -11,6 +11,10 @@ tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
 tap "vectordotdev/brew"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Official Amazon AWS command-line interface
