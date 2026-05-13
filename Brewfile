@@ -133,8 +133,6 @@ brew "sqlcmd"
 brew "squashfs"
 # Non-interactive SSH password auth
 brew "sshpass"
-# Modern SSH server for teams managing distributed infrastructure
-brew "teleport"
 # User interface to the TELNET protocol
 brew "telnet"
 # Program that allows you to count code, quickly
@@ -242,8 +240,6 @@ cask "stats"
 cask "sweet-home3d"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Developer-friendly browser for cloud infrastructure
-cask "teleport-connect"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
 # Open-source code editor
