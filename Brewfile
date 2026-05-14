@@ -125,6 +125,8 @@ brew "redis"
 brew "rtk"
 # Modern Day Portscanner
 brew "rustscan"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
 # Editor of encrypted files
 brew "sops"
 # Microsoft SQL Server command-line interface
