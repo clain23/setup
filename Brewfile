@@ -21,6 +21,8 @@ brew "ansible"
 brew "awscli"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
+# Testing and linting Helm charts
+brew "chart-testing"
 # OpenAI's coding agent that runs in your terminal
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
@@ -151,6 +153,8 @@ brew "wget"
 brew "xsv"
 # Language Server for Yaml Files
 brew "yaml-language-server"
+# Linter for YAML files
+brew "yamllint"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
 # Provisions remote development environments via Terraform
