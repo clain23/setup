@@ -139,6 +139,8 @@ brew "squashfs"
 brew "sshpass"
 # User interface to the TELNET protocol
 brew "telnet"
+# Instant terminal sharing
+brew "tmate"
 # Program that allows you to count code, quickly
 brew "tokei"
 # Distributed SQL query engine for big data
