@@ -77,6 +77,8 @@ brew "ipinfo-cli"
 brew "k9s"
 # Run local Kubernetes cluster in Docker
 brew "kind"
+# FAST Kubernetes manifests validator, with support for Custom Resources!
+brew "kubeconform"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
 # Kubernetes command-line interface
@@ -115,6 +117,8 @@ brew "openjdk@17"
 brew "opentofu"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Modern replacement for ps written in Rust
 brew "procs"
 # Interpreted, interactive, object-oriented programming language
