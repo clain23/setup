@@ -6,6 +6,7 @@ tap "gimlet-io/capacitor"
 tap "hashicorp/tap"
 tap "kdash-rs/kdash"
 tap "netbirdio/tap"
+tap "richyparr/tokemon"
 tap "robusta-dev/krr"
 tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
@@ -252,6 +253,8 @@ cask "stats"
 cask "sweet-home3d"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Monitor your Claude usage from the macOS menu bar
+cask "richyparr/tokemon/tokemon"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
 # Open-source code editor
