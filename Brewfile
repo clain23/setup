@@ -172,6 +172,8 @@ brew "controlplaneio-fluxcd/tap/flux-operator"
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 # Flux CLI
 brew "fluxcd/tap/flux"
+# Packer
+brew "hashicorp/tap/packer"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Vault
@@ -284,6 +286,7 @@ go "golang.org/x/tools/cmd/goimports"
 go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
+uv "checkov"
 uv "flux-local"
 npm "@notionhq/notion-mcp-server"
 npm "context-mode"
