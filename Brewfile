@@ -11,6 +11,7 @@ tap "robusta-dev/krr"
 tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
+tap "steipete/tap"
 tap "vectordotdev/brew"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
@@ -200,6 +201,8 @@ cask "cameracontroller"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Menu bar usage monitor for Codex and Claude
+cask "steipete/tap/codexbar"
 # Create and run Linux containers using lightweight virtual machines
 cask "container"
 # Write, edit, and chat about your code with AI
@@ -255,8 +258,6 @@ cask "stats"
 cask "sweet-home3d"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Monitor your Claude usage from the macOS menu bar
-cask "richyparr/tokemon/tokemon"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
 # Open-source code editor
