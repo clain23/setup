@@ -226,6 +226,8 @@ cask "jellyfin"
 cask "keka"
 # Kubernetes IDE
 cask "lens"
+# .NET LINQ database query tool and code scratchpad
+cask "linqpad"
 # Clipboard manager
 cask "maccy"
 # Extensible two-pane file manager
@@ -281,6 +283,7 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
+mas "Screens 5", id: 1663047912
 vscode "github.copilot-chat"
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/cmd/goimports"
