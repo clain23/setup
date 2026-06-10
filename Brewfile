@@ -29,6 +29,8 @@ brew "chart-testing"
 brew "codex"
 # Create and run Linux containers using lightweight virtual machines
 brew "container", link: false
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Tool for interacting with remote images and registries
 brew "crane"
 # High performance csv viewer for cli
