@@ -159,6 +159,8 @@ brew "trivy"
 brew "uv"
 # Internet file retriever
 brew "wget"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
 # Fast CSV toolkit written in Rust
 brew "xsv"
 # Language Server for Yaml Files
@@ -167,28 +169,6 @@ brew "yaml-language-server"
 brew "yamllint"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
-# Provisions remote development environments via Terraform
-brew "coder/coder/coder"
-# Flux Operator CLI
-brew "controlplaneio-fluxcd/tap/flux-operator"
-# Flux MCP Server
-brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
-# Flux CLI
-brew "fluxcd/tap/flux"
-# Packer
-brew "hashicorp/tap/packer"
-# Terraform
-brew "hashicorp/tap/terraform"
-# Vault
-brew "hashicorp/tap/vault"
-# Kubernetes Resource Recommender by Robusta
-brew "robusta-dev/krr/krr"
-# Permanent memory for AI agents — MCP server with hybrid search
-brew "rtk-ai/tap/icm"
-# IPs Analyze Tool
-brew "shodan-public/shodan/nrich"
-# A High-Performance Log, Metrics, and Events Router
-brew "vectordotdev/brew/vector"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Application uninstaller
@@ -204,7 +184,7 @@ cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Menu bar usage monitor for Codex and Claude
-cask "steipete/tap/codexbar"
+cask "steipete/tap/codexbar", trusted: true
 # Create and run Linux containers using lightweight virtual machines
 cask "container"
 # Write, edit, and chat about your code with AI
@@ -286,6 +266,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "Screens 5", id: 1663047912
+mas "Xcode", id: 497799835
 vscode "github.copilot-chat"
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/cmd/goimports"
