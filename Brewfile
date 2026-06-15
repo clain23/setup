@@ -267,7 +267,6 @@ mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "Screens 5", id: 1663047912
 mas "Xcode", id: 497799835
-vscode "github.copilot-chat"
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/cmd/goimports"
 go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
