@@ -260,13 +260,18 @@ cask "zed"
 cask "zoom"
 mas "Actions", id: 1586435171
 mas "FireStream", id: 1005325119
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "Screens 5", id: 1663047912
 mas "Xcode", id: 497799835
+vscode "anysphere.remote-containers"
+vscode "coderabbit.coderabbit-vscode"
+vscode "github.vscode-github-actions"
+vscode "golang.go"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode.powershell"
 go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/cmd/goimports"
 go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
