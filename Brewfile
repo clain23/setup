@@ -21,6 +21,10 @@ brew "actionlint"
 brew "ansible"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Text-based UI library
+brew "ncurses"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
 # Testing and linting Helm charts
@@ -105,8 +109,6 @@ brew "mkvtoolnix"
 brew "mpv"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
-# Text-based UI library
-brew "ncurses"
 # NCurses Disk Usage
 brew "ncdu"
 # Port scanning utility for large networks
