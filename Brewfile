@@ -149,6 +149,8 @@ brew "squashfs"
 brew "sshpass"
 # User interface to the TELNET protocol
 brew "telnet"
+# Managing Terraform stacks with change detections and code generations
+brew "terramate"
 # Instant terminal sharing
 brew "tmate"
 # Program that allows you to count code, quickly
@@ -260,13 +262,6 @@ cask "windows-app"
 cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Actions", id: 1586435171
-mas "FireStream", id: 1005325119
-mas "Keynote", id: 409183694
-mas "Numbers", id: 361304891
-mas "Pages", id: 361309726
-mas "Screens 5", id: 1663047912
-mas "Xcode", id: 497799835
 vscode "anysphere.remote-containers"
 vscode "coderabbit.coderabbit-vscode"
 vscode "github.vscode-github-actions"
