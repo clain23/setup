@@ -71,6 +71,8 @@ brew "go"
 brew "gping"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
+# Reliable, high performance TCP/HTTP load balancer
+brew "haproxy"
 # Convert HCL2 to JSON
 brew "hcl2json"
 # Language server for Helm
@@ -151,6 +153,8 @@ brew "sshpass"
 brew "telnet"
 # Managing Terraform stacks with change detections and code generations
 brew "terramate"
+# Tool which checks for the support of TLS/SSL ciphers and flaws
+brew "testssl"
 # Instant terminal sharing
 brew "tmate"
 # Program that allows you to count code, quickly
@@ -181,6 +185,8 @@ cask "appcleaner"
 cask "aptakube"
 # Utility improving 3rd party mouse performance and functionalities
 cask "bettermouse"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Control USB Cameras from an app
 cask "cameracontroller"
 # OpenAI's official ChatGPT desktop app
@@ -284,5 +290,6 @@ go "honnef.co/go/tools/cmd/staticcheck"
 uv "checkov"
 uv "flux-local"
 npm "@notionhq/notion-mcp-server"
+npm "@webosose/ares-cli"
 npm "context-mode"
 npm "vercel"
