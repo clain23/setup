@@ -153,6 +153,8 @@ brew "sshpass"
 brew "telnet"
 # Managing Terraform stacks with change detections and code generations
 brew "terramate"
+# Powerful free data recovery utility
+brew "testdisk"
 # Tool which checks for the support of TLS/SSL ciphers and flaws
 brew "testssl"
 # Instant terminal sharing
