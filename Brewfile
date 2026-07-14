@@ -83,6 +83,8 @@ brew "helm@3", link: true
 brew "httpx"
 # Official CLI for the IPinfo IP Address API
 brew "ipinfo-cli"
+# Utility for IPMI control with kernel driver or LAN interface
+brew "ipmitool"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
 # Run local Kubernetes cluster in Docker
