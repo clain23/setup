@@ -193,13 +193,14 @@ cask "bettermouse"
 cask "brave-browser"
 # Control USB Cameras from an app
 cask "cameracontroller"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # OpenAI's previous ChatGPT desktop app
 cask "chatgpt-classic"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Menu bar usage monitor for Codex and Claude
 cask "steipete/tap/codexbar", trusted: true
-# Create and run Linux containers using lightweight virtual machines
 cask "container"
 # Write, edit, and chat about your code with AI
 cask "cursor"
