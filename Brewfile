@@ -131,6 +131,8 @@ brew "pinentry-mac"
 brew "pipx"
 # Modern replacement for ps written in Rust
 brew "procs"
+# Service monitoring system and time series database
+brew "prometheus"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
 # Rsync for cloud storage
@@ -251,6 +253,8 @@ cask "qbittorrent"
 cask "samsung-magician"
 # Team communication and collaboration software
 cask "slack"
+# Sound and audio controller
+cask "soundsource"
 # System monitor for the menu bar
 cask "stats"
 # Interior design application
