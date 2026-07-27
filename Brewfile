@@ -213,6 +213,8 @@ cask "dotnet-sdk"
 # Status monitoring
 cask "eul"
 cask "font-hack-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Open-source video transcoder
