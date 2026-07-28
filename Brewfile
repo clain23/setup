@@ -125,6 +125,8 @@ brew "nuget"
 brew "openjdk@17"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
+# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
+brew "openvpn"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Execute binaries from Python packages in isolated environments
