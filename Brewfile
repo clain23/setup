@@ -11,7 +11,7 @@ tap "robusta-dev/krr"
 tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
-tap "steipete/tap"
+tap "steipete/tap", trusted: { casks: ["codexbar"] }
 tap "vectordotdev/brew"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
@@ -85,6 +85,8 @@ brew "httpx"
 brew "ipinfo-cli"
 # Utility for IPMI control with kernel driver or LAN interface
 brew "ipmitool"
+# C-language implementation of Javascript Object Signing and Encryption
+brew "jose"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
 # Run local Kubernetes cluster in Docker
@@ -204,7 +206,7 @@ cask "chatgpt-classic"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Menu bar usage monitor for Codex and Claude
-cask "steipete/tap/codexbar", trusted: true
+cask "codexbar"
 cask "container"
 # Write, edit, and chat about your code with AI
 cask "cursor"
