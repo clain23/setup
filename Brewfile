@@ -11,6 +11,7 @@ tap "robusta-dev/krr"
 tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
+tap "stablyai/orca"
 tap "steipete/tap", trusted: { casks: ["codexbar"] }
 tap "vectordotdev/brew"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -251,6 +252,8 @@ cask "onlyoffice"
 cask "openmtp"
 # Replacement for Docker Desktop
 cask "orbstack"
+# IDE for orchestrating AI coding agents across terminals and worktrees
+cask "stablyai/orca/orca", trusted: true
 # Security checklist app
 cask "pareto-security"
 # Peer to peer Bitorrent client
