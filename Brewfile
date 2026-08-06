@@ -188,6 +188,8 @@ brew "yaml-language-server"
 brew "yamllint"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
+# Flux CLI
+brew "fluxcd/tap/flux", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Application uninstaller
