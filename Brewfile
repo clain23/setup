@@ -144,8 +144,6 @@ brew "python@3.12"
 brew "rclone"
 # Persistent key-value database, with built-in net interface
 brew "redis"
-# CLI proxy to minimize LLM token consumption
-brew "rtk"
 # Modern Day Portscanner
 brew "rustscan"
 # 7-Zip is a file archiver with a high compression ratio
