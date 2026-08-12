@@ -124,6 +124,8 @@ brew "nmap"
 brew "node"
 # Package manager for Microsoft development platform including .NET
 brew "nuget"
+# Tools for one-time password authentication systems
+brew "oath-toolkit"
 # Development kit for the Java programming language
 brew "openjdk@17"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
@@ -304,6 +306,7 @@ go "sigs.k8s.io/cloud-provider-kind"
 go "golang.org/x/tools/cmd/goimports"
 go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
 go "golang.org/x/tools/gopls"
+go "github.com/XNet-NGO/mcp-netbird/cmd/mcp-netbird"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/a-h/templ/cmd/templ"
 uv "checkov"
