@@ -1,6 +1,6 @@
 tap "coder/coder"
 tap "controlplaneio-fluxcd/tap"
-tap "domt4/autoupdate"
+tap "domt4/autoupdate", trusted: true
 tap "fluxcd/tap"
 tap "gimlet-io/capacitor"
 tap "hashicorp/tap"
@@ -126,6 +126,8 @@ brew "node"
 brew "nuget"
 # Tools for one-time password authentication systems
 brew "oath-toolkit"
+# AI coding agent, built for the terminal
+brew "opencode"
 # Development kit for the Java programming language
 brew "openjdk@17"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
