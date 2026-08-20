@@ -11,7 +11,7 @@ tap "robusta-dev/krr"
 tap "rtk-ai/tap"
 tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
-tap "stablyai/orca", trusted: { casks: ["orca"] }
+tap "stablyai/orca"
 tap "steipete/tap", trusted: { casks: ["codexbar"] }
 tap "vectordotdev/brew"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -192,6 +192,104 @@ brew "yamllint"
 brew "yq"
 # Flux CLI
 brew "fluxcd/tap/flux", trusted: true
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Application uninstaller
+cask "appcleaner"
+# Kubernetes desktop client
+cask "aptakube"
+# Utility improving 3rd party mouse performance and functionalities
+cask "bettermouse"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Control USB Cameras from an app
+cask "cameracontroller"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# OpenAI's previous ChatGPT desktop app
+cask "chatgpt-classic"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Menu bar usage monitor for Codex and Claude
+cask "codexbar"
+cask "container"
+# Write, edit, and chat about your code with AI
+cask "cursor"
+# Universal database tool and SQL client
+cask "dbeaver-community"
+# Developer platform
+cask "dotnet-sdk"
+# Status monitoring
+cask "eul"
+cask "font-hack-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Open-source video transcoder
+cask "handbrake-app"
+# iPhone management application
+cask "imazing"
+# Media system
+cask "jellyfin"
+# File archiver
+cask "keka"
+# Kubernetes IDE
+cask "lens"
+# .NET LINQ database query tool and code scratchpad
+cask "linqpad"
+# Clipboard manager
+cask "maccy"
+# Extensible two-pane file manager
+cask "marta"
+# Shows the next meeting in the menu bar
+cask "meetingbar"
+# Native app email client for Gmail
+cask "mimestream"
+# App to write, plan, collaborate, and get organised
+cask "notion"
+# Calendar for professionals and teams
+cask "notion-calendar"
+# Document editor
+cask "onlyoffice"
+# Android file transfer
+cask "openmtp"
+# Replacement for Docker Desktop
+cask "orbstack"
+# IDE for orchestrating AI coding agents across terminals and worktrees
+cask "stablyai/orca/orca", trusted: true
+# Security checklist app
+cask "pareto-security"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+# Manage Samsung internal and portable SSDs, memory cards, and USB flash drives
+cask "samsung-magician"
+# Team communication and collaboration software
+cask "slack"
+# Sound and audio controller
+cask "soundsource"
+# System monitor for the menu bar
+cask "stats"
+# Interior design application
+cask "sweet-home3d"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Free and open-source OpenVPN client
+cask "tunnelblick"
+# Open-source code editor
+cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
+# Native desktop client for WhatsApp
+cask "whatsapp"
+# Scan, monitor, and troubleshoot wireless networks
+cask "wifi-explorer"
+# Connect to Windows
+cask "windows-app"
+# Multiplayer code editor
+cask "zed"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Actions", id: 1586435171
 mas "FireStream", id: 1005325119
 mas "Keynote", id: 409183694
