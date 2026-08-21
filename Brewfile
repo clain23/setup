@@ -240,6 +240,8 @@ cask "lens"
 cask "linqpad"
 # Clipboard manager
 cask "maccy"
+# Speech recognition tool
+cask "macwhisper"
 # Extensible two-pane file manager
 cask "marta"
 # Shows the next meeting in the menu bar
