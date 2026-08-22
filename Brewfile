@@ -297,7 +297,6 @@ mas "FireStream", id: 1005325119
 mas "Keynote", id: 409183694
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
-mas "Screens 5", id: 1663047912
 mas "Xcode", id: 497799835
 vscode "anysphere.remote-containers"
 vscode "coderabbit.coderabbit-vscode"
