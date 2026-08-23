@@ -200,8 +200,6 @@ cask "appcleaner"
 cask "aptakube"
 # Utility improving 3rd party mouse performance and functionalities
 cask "bettermouse"
-# Web browser focusing on privacy
-cask "brave-browser"
 # Control USB Cameras from an app
 cask "cameracontroller"
 # OpenAI's official ChatGPT desktop app
