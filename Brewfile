@@ -138,6 +138,8 @@ brew "openvpn"
 brew "pinentry-mac"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Command-line shell and scripting language
+brew "powershell"
 # Modern replacement for ps written in Rust
 brew "procs"
 # Service monitoring system and time series database
