@@ -13,6 +13,7 @@ tap "shodan-public/shodan", "https://gitlab.com/shodan-public/homebrew-shodan"
 tap "sinelaw/fresh"
 tap "stablyai/orca"
 tap "steipete/tap", trusted: { casks: ["codexbar"] }
+tap "umputun/apps"
 tap "vectordotdev/brew"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
@@ -196,6 +197,8 @@ brew "yq"
 brew "fluxcd/tap/flux", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Native macOS terminal on libghostty with a workspace/session sidebar
+cask "umputun/apps/agterm", trusted: true
 # Application uninstaller
 cask "appcleaner"
 # Kubernetes desktop client
