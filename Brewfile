@@ -95,6 +95,8 @@ brew "k9s"
 brew "kind"
 # FAST Kubernetes manifests validator, with support for Custom Resources!
 brew "kubeconform"
+# CloudNativePG plugin for kubectl
+brew "kubectl-cnpg"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
 # Kubernetes command-line interface
