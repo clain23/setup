@@ -297,6 +297,12 @@ cask "windows-app"
 cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Actions", id: 1586435171
+mas "FireStream", id: 1005325119
+mas "Keynote", id: 409183694
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Xcode", id: 497799835
 vscode "anysphere.remote-containers"
 vscode "coderabbit.coderabbit-vscode"
 vscode "github.vscode-github-actions"
@@ -316,7 +322,7 @@ go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/a-h/templ/cmd/templ"
 go "github.com/mikefarah/yq/v4"
 uv "checkov"
-uv "claude-swap"
+uv "claude-swap[menubar]"
 uv "flux-local", source: "git+https://github.com/maestra-io/flux-local-fork@270adaffb3f721d97a3793a7e823fbbff51c1d46"
 npm "@notionhq/notion-mcp-server"
 npm "@webosose/ares-cli"
